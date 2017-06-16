@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_table"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#f5f5f5"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabIndicatorHeight="3dp"
+        app:tabPadding="2dp"
+        app:tabSelectedTextColor="#281cab"
+        app:tabTextAppearance="@style/MyTabTextStyle"
+        app:tabTextColor="#181717" />
+
+    <ImageView
+        android:id="@+id/add_channel_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#f5f5f5"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:maxHeight="?attr/actionBarSize"
+        android:padding="8dp"
+        app:srcCompat="@drawable/ic_add_red"
+        tools:ignore="VectorDrawableCompat" />
+
+</LinearLayout>
