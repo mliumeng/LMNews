@@ -1,1 +1,1 @@
-include ':LMNews', ':corelibrary', ':ModuleContent', ':ModulePoints', ':ModuleLogin'
+include ':LMNews', ':CoreLibrary', ':ModuleContent', ':ModulePoints', ':ModuleLogin'
